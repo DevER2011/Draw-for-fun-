@@ -17,6 +17,7 @@
         animation-iteration-count: infinite;
         width: 400px;
         height: 400px;
+        background-color: white;
         }
         @keyframes example{
         from{box-shadow: 1px 1px 38px gold; }
