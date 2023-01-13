@@ -17,22 +17,12 @@
         animation-iteration-count: infinite;
         width: 400px;
         height: 400px;
-        background-color: white;
         }
         @keyframes example{
         from{box-shadow: 1px 1px 38px gold; }
         to {box-shadow: 1px 1px 38px rgb(157, 20, 220);}
         }
         body{
-       background-image:url("le photo.jpg");
+       background-image:url("college.jpg");
        font-family: 'Press Start 2P', cursive;
         }
-        #amogus{
- color: cyan;
-            }
-            #show_sketch{
-               float: right; 
-            }
-
-
-        

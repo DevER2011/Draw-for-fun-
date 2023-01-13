@@ -1,7 +1,7 @@
 function setup(){
     canvas = createCanvas(400, 400);
     canvas.center();
-    background("white");
+    background('white');
     canvas.mouseReleased(classfiyCanvas);
     synth = window.speechSynthesis();
 }
@@ -10,11 +10,11 @@ function clear(){
     
 }
 function preload(){
-classifier = ml5.imageClassifier('doodlenet');
+classifier = ml5.imageClassifier('DoodleNet');
 }
 function draw(){
 strokeWeight(6);
-stroke('purple');
+stroke(0);
 if(mouseIsPressed){
     line(pmouseX, pmouseY, mouseX, mouseY);
 }
